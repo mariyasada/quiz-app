@@ -1,0 +1,30 @@
+@import url(/home.css);
+
+/*  reset css */
+html{
+    font-size: 62.5%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;  
+    height: 100%;  
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+/* colors*/
+:root
+{
+ --primary-black:#0f172a;
+ --white-color:white;
+ --red-color:red;
+
+}
