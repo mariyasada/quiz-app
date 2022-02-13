@@ -6,16 +6,16 @@ body
 .heading
 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
     color:var(--white-color);
-    background: -webkit-linear-gradient(#eee, var(--dark-cyan));
+    background: -webkit-linear-gradient(#eee, var(--dark-blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .heading-sm
 {   text-align: center;
     font-size: 2rem;
-    background: -webkit-linear-gradient(rgb(218, 209, 209), var(--dark-cyan));
+    background: -webkit-linear-gradient(rgb(218, 209, 209), var(--light-green));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -36,9 +36,9 @@ body
 }
 .card-title
 {
-    color:var(--red-color);
+    color:var(--dark-orange);
     font-size: 2.5rem;
-    text-shadow: 2px 2px 2px var(--white-color);
+    text-shadow: 1px 1px 1px var(--white-color);
     position: absolute;
     top:-4rem;
     left:1rem;
@@ -46,5 +46,47 @@ body
 .card-with-shadow
 {
     box-shadow: 3px 3px 9px var(--white-color);
-    width:24rem;
+    width:26rem;
+}
+.center
+{
+    text-align: center;
+    font-size: 2rem;
+    color:var(--white-color);
+    padding: 2rem;
+}
+/* footer css */
+footer
+{
+    background-color: var(--light-stone);    
+    padding: 2rem 1rem;
+    color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    min-width: 100%; 
+    margin-top: 3rem;
+}
+.footer-heading
+{
+    font-size: medium;
+    font-weight: bold;
+}
+.nav-icon
+{
+    color:var(--dark-blue);
+}
+@media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+    footer
+    {
+        flex-direction: column;
+    }
+    .heading-sm{
+        align-self: center;
+    }
 }
