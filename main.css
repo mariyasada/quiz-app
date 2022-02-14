@@ -1,5 +1,6 @@
 @import url(/home.css);
 @import url(/stylesheet/rulepage.css);
+@import url(/stylesheet/questionstyle.css);
 
 /*  reset css */
 html{
@@ -28,4 +29,7 @@ a{
  --white-color:white;
  --red-color:red;
 --medium-sky:#57a5cf;
+--light-zinc:#d4d4d8;
+--light-purple:#c084fc;
+--medium-indigo:#a78bfa;
 }

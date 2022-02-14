@@ -1,0 +1,52 @@
+.question-container
+{
+    height:60vh;
+    width:45vw;
+    background: -webkit-linear-gradient(var(--light-purple),var(--medium-indigo));
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem auto;
+    font-weight: 600;
+}
+.question-container .question-score-flex-container
+{
+    display: flex;
+    justify-content: space-between;
+    width:40vw;
+    align-items: center;
+    flex-direction: row;
+    margin-top:4rem;
+    font-size: 2.5rem;
+}
+.question-of-quiz
+{
+    width: 40vw;
+    font-size: 2rem; 
+}
+.answer-container
+{
+    display: flex;
+    flex-direction: column;
+    width:25vw;
+    align-items: center;
+    justify-content: center;
+}
+.btn-teal-color
+{
+    background-color: var(--dark-teal);
+}
+.next-button-container
+{
+    width:45vw;
+    margin: auto; 
+    padding: 1rem; 
+}
+.btn-sm
+{
+    display: block;
+    width:9rem; 
+    margin-left: auto;
+  margin-right: 0;     
+}
