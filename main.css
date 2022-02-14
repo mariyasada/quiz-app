@@ -1,4 +1,5 @@
 @import url(/home.css);
+@import url(/stylesheet/rulepage.css);
 
 /*  reset css */
 html{
@@ -23,8 +24,8 @@ a{
 /* colors*/
 :root
 {
- --primary-black:#0f172a;
+ --primary-black:#171718;
  --white-color:white;
  --red-color:red;
-
+--medium-sky:#57a5cf;
 }
