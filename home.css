@@ -1,94 +1,98 @@
 @import url(/main.css);
-body
-{
+body {
     background: var(--primary-black);
 }
 
-.heading
-{
+.heading {
     text-align: center;
     font-size: 5rem;
-    color:var(--white-color);
+    color: var(--white-color);
     background: -webkit-linear-gradient(#eee, var(--dark-blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.heading-sm
-{   text-align: center;
+
+.heading-sm {
+    text-align: center;
     font-size: 2rem;
     background: -webkit-linear-gradient(rgb(218, 209, 209), var(--light-green));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.flex-layout
-{
-    margin-left:10rem;
+
+.flex-layout {
+    margin-left: 10rem;
     display: flex;
     max-width: 80vw;
     flex-flow: row wrap;
-    gap:5rem;
+    gap: 5rem;
     align-items: center;
     justify-content: center;
-
 }
-.card-body
-{
-    color:var(--dark-cyan);   
+
+.card-body {
+    color: var(--dark-cyan);
     font-weight: 800;
 }
-.card-title
-{
-    color:var(--dark-orange);
+
+.card-title {
+    color: var(--dark-orange);
     font-size: 2.5rem;
     text-shadow: 1px 1px 1px var(--white-color);
     position: absolute;
-    top:-4rem;
-    left:1rem;
+    top: -4rem;
+    left: 1rem;
 }
-.card-with-shadow
-{
-    box-shadow: 3px 3px 9px var(--white-color);
-    width:26rem;
+
+.card-with-shadow {
+    box-shadow: 5px 5px 13px var(--white-color);
+    width: 26rem;
 }
-.center
-{
+
+.card-with-shadow:hover {
+    box-shadow: 5px 5px 20px var(--light-green);
+}
+
+.center {
     text-align: center;
     font-size: 2rem;
-    color:var(--white-color);
+    color: var(--white-color);
     padding: 2rem;
 }
+
+
 /* footer css */
-footer
-{
-    background-color: var(--light-stone);    
+
+footer {
+    background-color: var(--light-stone);
     padding: 2rem 1rem;
     color: var(--dark-blue);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    min-width: 100%; 
+    min-width: 100%;
     margin-top: 3rem;
 }
-.footer-heading
-{
+
+.footer-heading {
     font-size: medium;
     font-weight: bold;
 }
-.nav-icon
-{
-    color:var(--dark-blue);
+
+.nav-icon {
+    color: var(--dark-blue);
 }
+
 @media (max-width: 900px) {
     body {
-      max-width: 95%;
-      width: 100%;
+        max-width: 95%;
+        width: 100%;
     }
-    footer
-    {
+    footer {
         flex-direction: column;
     }
-    .heading-sm{
+    .heading-sm {
         align-self: center;
     }
 }
